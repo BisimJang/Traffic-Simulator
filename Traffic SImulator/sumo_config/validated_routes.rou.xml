@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-02-28 06:04:07 by Eclipse SUMO duarouter Version 1.22.0
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="simple_intersection.net.xml"/>
+        <route-files value="simple_intersection.rou.xml"/>
+    </input>
+
+    <output>
+        <output-file value="validated_routes.rou.xml"/>
+    </output>
+
+</duarouterConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="car" length="5.00" maxSpeed="33.30" color="blue" accel="2.6" decel="4.5" sigma="0.5"/>
+    <vehicle id="north_to_south" type="car" depart="0.00">
+        <route edges="-E1 E2"/>
+    </vehicle>
+    <vehicle id="south_to_north" type="car" depart="0.00">
+        <route edges="-E2 E1"/>
+    </vehicle>
+    <vehicle id="east_to_west" type="car" depart="0.00">
+        <route edges="E3 -E0"/>
+    </vehicle>
+    <vehicle id="east_to_north" type="car" depart="0.00">
+        <route edges="E3 E1"/>
+    </vehicle>
+    <vehicle id="east_west_flow.0" type="car" depart="0.00">
+        <route edges="E3 -E0"/>
+    </vehicle>
+    <vehicle id="north_south_flow.0" type="car" depart="0.00">
+        <route edges="-E1 E2"/>
+    </vehicle>
+    <vehicle id="south_north_flow.0" type="car" depart="0.00">
+        <route edges="-E2 E1"/>
+    </vehicle>
+    <vehicle id="east_west_flow.1" type="car" depart="5.00">
+        <route edges="E3 -E0"/>
+    </vehicle>
+    <vehicle id="north_south_flow.1" type="car" depart="5.00">
+        <route edges="-E1 E2"/>
+    </vehicle>
+    <vehicle id="south_north_flow.1" type="car" depart="5.00">
+        <route edges="-E2 E1"/>
+    </vehicle>
+    <vehicle id="east_west_flow.2" type="car" depart="10.00">
+        <route edges="E3 -E0"/>
+    </vehicle>
+    <vehicle id="north_south_flow.2" type="car" depart="10.00">
+        <route edges="-E1 E2"/>
+    </vehicle>
+    <vehicle id="south_north_flow.2" type="car" depart="10.00">
+        <route edges="-E2 E1"/>
+    </vehicle>
+    <vehicle id="east_west_flow.3" type="car" depart="15.00">
+        <route edges="E3 -E0"/>
+    </vehicle>
+    <vehicle id="north_south_flow.3" type="car" depart="15.00">
+        <route edges="-E1 E2"/>
+    </vehicle>
+    <vehicle id="south_north_flow.3" type="car" depart="15.00">
+        <route edges="-E2 E1"/>
+    </vehicle>
+    <vehicle id="east_west_flow.4" type="car" depart="20.00">
+        <route edges="E3 -E0"/>
+    </vehicle>
+    <vehicle id="north_south_flow.4" type="car" depart="20.00">
+        <route edges="-E1 E2"/>
+    </vehicle>
+    <vehicle id="south_north_flow.4" type="car" depart="20.00">
+        <route edges="-E2 E1"/>
+    </vehicle>
+    <vehicle id="east_west_flow.5" type="car" depart="25.00">
+        <route edges="E3 -E0"/>
+    </vehicle>
+    <vehicle id="north_south_flow.5" type="car" depart="25.00">
+        <route edges="-E1 E2"/>
+    </vehicle>
+    <vehicle id="south_north_flow.5" type="car" depart="25.00">
+        <route edges="-E2 E1"/>
+    </vehicle>
+    <vehicle id="east_west_flow.6" type="car" depart="30.00">
+        <route edges="E3 -E0"/>
+    </vehicle>
+    <vehicle id="north_south_flow.6" type="car" depart="30.00">
+        <route edges="-E1 E2"/>
+    </vehicle>
+    <vehicle id="south_north_flow.6" type="car" depart="30.00">
+        <route edges="-E2 E1"/>
+    </vehicle>
+    <vehicle id="east_west_flow.7" type="car" depart="35.00">
+        <route edges="E3 -E0"/>
+    </vehicle>
+    <vehicle id="north_south_flow.7" type="car" depart="35.00">
+        <route edges="-E1 E2"/>
+    </vehicle>
+    <vehicle id="south_north_flow.7" type="car" depart="35.00">
+        <route edges="-E2 E1"/>
+    </vehicle>
+    <vehicle id="east_west_flow.8" type="car" depart="40.00">
+        <route edges="E3 -E0"/>
+    </vehicle>
+    <vehicle id="north_south_flow.8" type="car" depart="40.00">
+        <route edges="-E1 E2"/>
+    </vehicle>
+    <vehicle id="south_north_flow.8" type="car" depart="40.00">
+        <route edges="-E2 E1"/>
+    </vehicle>
+    <vehicle id="east_west_flow.9" type="car" depart="45.00">
+        <route edges="E3 -E0"/>
+    </vehicle>
+    <vehicle id="north_south_flow.9" type="car" depart="45.00">
+        <route edges="-E1 E2"/>
+    </vehicle>
+    <vehicle id="south_north_flow.9" type="car" depart="45.00">
+        <route edges="-E2 E1"/>
+    </vehicle>
+    <vehicle id="east_west_flow.10" type="car" depart="50.00">
+        <route edges="E3 -E0"/>
+    </vehicle>
+    <vehicle id="north_south_flow.10" type="car" depart="50.00">
+        <route edges="-E1 E2"/>
+    </vehicle>
+    <vehicle id="south_north_flow.10" type="car" depart="50.00">
+        <route edges="-E2 E1"/>
+    </vehicle>
+    <vehicle id="east_west_flow.11" type="car" depart="55.00">
+        <route edges="E3 -E0"/>
+    </vehicle>
+    <vehicle id="north_south_flow.11" type="car" depart="55.00">
+        <route edges="-E1 E2"/>
+    </vehicle>
+    <vehicle id="south_north_flow.11" type="car" depart="55.00">
+        <route edges="-E2 E1"/>
+    </vehicle>
+    <vehicle id="east_west_flow.12" type="car" depart="60.00">
+        <route edges="E3 -E0"/>
+    </vehicle>
+    <vehicle id="north_south_flow.12" type="car" depart="60.00">
+        <route edges="-E1 E2"/>
+    </vehicle>
+    <vehicle id="south_north_flow.12" type="car" depart="60.00">
+        <route edges="-E2 E1"/>
+    </vehicle>
+    <vehicle id="east_west_flow.13" type="car" depart="65.00">
+        <route edges="E3 -E0"/>
+    </vehicle>
+    <vehicle id="north_south_flow.13" type="car" depart="65.00">
+        <route edges="-E1 E2"/>
+    </vehicle>
+    <vehicle id="south_north_flow.13" type="car" depart="65.00">
+        <route edges="-E2 E1"/>
+    </vehicle>
+    <vehicle id="east_west_flow.14" type="car" depart="70.00">
+        <route edges="E3 -E0"/>
+    </vehicle>
+    <vehicle id="north_south_flow.14" type="car" depart="70.00">
+        <route edges="-E1 E2"/>
+    </vehicle>
+    <vehicle id="south_north_flow.14" type="car" depart="70.00">
+        <route edges="-E2 E1"/>
+    </vehicle>
+    <vehicle id="east_west_flow.15" type="car" depart="75.00">
+        <route edges="E3 -E0"/>
+    </vehicle>
+    <vehicle id="north_south_flow.15" type="car" depart="75.00">
+        <route edges="-E1 E2"/>
+    </vehicle>
+    <vehicle id="south_north_flow.15" type="car" depart="75.00">
+        <route edges="-E2 E1"/>
+    </vehicle>
+    <vehicle id="east_west_flow.16" type="car" depart="80.00">
+        <route edges="E3 -E0"/>
+    </vehicle>
+    <vehicle id="north_south_flow.16" type="car" depart="80.00">
+        <route edges="-E1 E2"/>
+    </vehicle>
+    <vehicle id="south_north_flow.16" type="car" depart="80.00">
+        <route edges="-E2 E1"/>
+    </vehicle>
+    <vehicle id="east_west_flow.17" type="car" depart="85.00">
+        <route edges="E3 -E0"/>
+    </vehicle>
+    <vehicle id="north_south_flow.17" type="car" depart="85.00">
+        <route edges="-E1 E2"/>
+    </vehicle>
+    <vehicle id="south_north_flow.17" type="car" depart="85.00">
+        <route edges="-E2 E1"/>
+    </vehicle>
+    <vehicle id="east_west_flow.18" type="car" depart="90.00">
+        <route edges="E3 -E0"/>
+    </vehicle>
+    <vehicle id="north_south_flow.18" type="car" depart="90.00">
+        <route edges="-E1 E2"/>
+    </vehicle>
+    <vehicle id="south_north_flow.18" type="car" depart="90.00">
+        <route edges="-E2 E1"/>
+    </vehicle>
+    <vehicle id="east_west_flow.19" type="car" depart="95.00">
+        <route edges="E3 -E0"/>
+    </vehicle>
+    <vehicle id="north_south_flow.19" type="car" depart="95.00">
+        <route edges="-E1 E2"/>
+    </vehicle>
+    <vehicle id="south_north_flow.19" type="car" depart="95.00">
+        <route edges="-E2 E1"/>
+    </vehicle>
+</routes>

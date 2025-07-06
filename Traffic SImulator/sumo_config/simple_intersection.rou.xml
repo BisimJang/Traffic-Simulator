@@ -1,0 +1,16 @@
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="car" length="5.00" maxSpeed="33.30" color="blue" accel="2.6" decel="4.5" sigma="0.5"/>
+    <!-- Routes -->
+    <route id="route1" edges="E0 E1"/>
+    <route id="route2" edges="E0.48 E2"/>
+    <route id="route3" edges="-E1 E2"/>
+    <route id="route4" edges="-E2 -E0.48"/>
+    <route id="route5" edges="E0.48 -E0"/>
+    <route id="route7" edges="E0.48 E1"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <trip id="east_to_north" type="car" depart="0.00" from="E0.48" to="E1"/>
+    <trip id="east_to_west" type="car" depart="0.00" from="E0.48" to="-E0"/>
+    <trip id="north_to_south" type="car" depart="0.00" from="-E1" to="E2"/>
+    <trip id="south_to_north" type="car" depart="0.00" from="-E2" to="E1"/>
+</routes>
